@@ -1,0 +1,74 @@
+v<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exercício 2</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: white;
+  }
+
+ 
+  .corner-box {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+  }
+
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+  }
+
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+
+ 
+  .circulo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+  <div class="corner-box top-left"></div>
+  <div class="corner-box top-right"></div>
+  <div class="corner-box bottom-left"></div>
+  <div class="corner-box bottom-right"></div>
+
+  <div class="center-circle">Exercício 2</div>
+</body>
+</html>
